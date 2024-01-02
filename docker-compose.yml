@@ -37,7 +37,7 @@ services:
     
   vproweb:
     build:
-      context: ./Docker-files/webapps
+      context: ./Docker-files/web
     image: robinson202/vproweb
     container_name: vproweb
     ports:
